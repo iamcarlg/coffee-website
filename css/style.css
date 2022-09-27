@@ -15,8 +15,8 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
-  color: gray;
-  background-color: white;
+  color: white;
+  background-color: #000;
 }
 
 #page {
@@ -63,7 +63,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
-  color: #000;
+  color: #fff;
   font-family: "Libre Baskerville", serif;
   font-weight: 400;
   margin: 0 0 20px 0;
@@ -89,7 +89,8 @@ h1, h2, h3, h4, h5, h6, figure {
   max-width: 1060px;
   margin: 0 auto;
   margin-bottom: 1em;
-  background: #fff;
+  background: #000;
+  color:white;
 }
 @media screen and (max-width: 768px) {
   .container-wrap {
@@ -114,7 +115,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo {
-  font-size: 45px;
+  font-size: 40px;
   margin: 0;
   padding: 1em 0;
   color: #000;
@@ -130,13 +131,13 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav #fh5co-logo a {
-  color: #000;
+  color: #fff;
   font-family: sans-serif;
   font-weight : 900; 
 }
 .fh5co-nav a {
   padding: 5px 10px;
-  color: #000;
+  color: #fff;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -161,7 +162,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   font-size: 13px;
   padding: 30px 20px;
-  color: rgba(0, 0, 0, 0.8);
+  color: #fff;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -183,7 +184,7 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: translate3d(0, 10px, 0);
 }
 .fh5co-nav ul li a:hover {
-  color: #000;
+  color: #658361;
 }
 .fh5co-nav ul li a:hover:after {
   opacity: 1;
@@ -281,7 +282,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #000 !important;
+  color: #fff !important;
   position: relative;
 }
 .fh5co-nav ul li.active > a:after {
@@ -777,17 +778,17 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
   position: relative;
   padding-left: 40px;
-  color: #000;
+  color: #fff;
 }
 .contact-info li i {
   position: absolute;
   top: .3em;
   left: 0;
   font-size: 18px;
-  color: rgba(0, 0, 0, 0.3);
+  color: #fff;
 }
 .contact-info li a {
-  color: #000;
+  color: #fff;
 }
 
 .form-control {
@@ -926,6 +927,7 @@ input[type="text"] {
   z-index: 1901;
   width: 270px;
   background: black;
+  color : #fff;
   top: 0;
   right: 0;
   top: 0;
@@ -1078,11 +1080,11 @@ input[type="text"] {
   transition: all .2s ease-out;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i {
-  color: #fff;
-  background: #000;
+  color: #000;
+  background: #fff;
 }
 .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
-  background: #000;
+  background: #fff;
 }
 
 .fh5co-nav-toggle i::before {
@@ -1307,8 +1309,8 @@ input[type="text"] {
 
 .form-control {
   box-shadow: none;
-  background: transparent;
-  border: 2px solid rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border: 2px solid rgba(255, 255, 255, 0.6);
   height: 54px;
   font-size: 18px;
   font-weight: 300;
